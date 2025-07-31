@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --no-cache curl jq && \
+RUN apk add --no-cache bash curl jq && \
     which curl && \
     which jq
 
